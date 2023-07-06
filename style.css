@@ -1,0 +1,253 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
+}
+/* start header section */
+.headerDesign{
+    background-image:linear-gradient(rgba(56, 53, 53, 0.894),rgba(0, 0, 0, 0.851)), url(images-2/foraz-help-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+}
+.firstSection{
+text-align: center;
+padding-top: 150px;
+
+}
+.firstSection h1{
+    font-size: 40px;
+    width: 60%;
+    color: white;
+    margin: 0 auto;
+}
+.firstSection p {
+    width: 50%;
+    color: rgba(255, 255, 255, 0.628);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 0 auto;
+}
+.donate-btn{
+    background-color: rgb(220, 74, 55);
+    color: white;
+    font-size: 20px;
+    padding: 15px 25px 15px 25px;
+    border-radius: 5px;
+    border: none;
+}
+/* end header section */
+
+/* start donation of people */
+.donate-title{
+    text-align: center;
+    margin-top: 80px;
+}
+.donate-title h1{
+    font-size: 30px;
+
+}
+.donate-title p{
+  width: 60%;
+  margin: 0 auto;
+ color: gray;
+}
+
+.donate-users{
+    display: flex;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+.donate-user{
+    width: 10%;
+    margin: 0 auto;
+}
+.donation{
+    background-color: rgba(128, 128, 128, 0.08);
+    padding: 30px;
+    border-radius: 5px;
+    color: gray;
+}
+.donation:hover{
+    background-color: rgba(255, 0, 0, 0.073);
+    border: 2px solid red;
+    color: rgba(255, 0, 0, 0.724);
+    margin: -5px;
+}
+
+.other-taka h3{
+ text-align: center;
+ color: rgba(128, 128, 128, 0.441);
+}
+
+.horizental{
+    background-color:rgba(128, 128, 128, 0.441);
+    width: 70%;
+    height: 2px;
+    margin: 0 auto;
+    margin-bottom:30px ;
+}
+.donate-btn-2{
+    background-color: rgb(220, 74, 55);
+    color: white;
+    font-size: 15px;
+    padding: 10px 18px 10px 18px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom:30px ;
+}
+
+.btn{
+    text-align: center;
+}
+
+/* end donation of people */
+
+/* start our donate planing  */
+
+  .plan-title{
+    text-align: center;
+    margin-bottom: 30px;
+  } 
+  .plan-title h1{
+     font-size: 35px;
+  } 
+  .plan-title p{
+    color: gray;
+    width: 60%;
+    margin: 0 auto;
+ } 
+
+ .planing-card{
+    display: flex;
+    margin-bottom: 50px;
+ }
+ .half-width{
+    width: 30%;
+    margin: 0 auto;
+ }
+
+ .plan-card-3{
+    background-color: #FFF4D6;
+    padding: 60px 20px 50px 20px;
+    /* margin: 10px; */
+    color: gray;
+    border-radius: 10px;
+ }
+ .plan-card-3 h3{
+    color: black;
+ }
+
+ .plan-card-2{
+    background-color: #FFEEEE;
+    padding:60px 20px 50px 20px;
+    /* margin: 10px; */
+    color: gray;
+    border-radius: 10px;
+ }
+ .plan-card-2 h3{
+    color: black;
+ }
+ .plan-card-1{
+    background-color: #EDF5F6;
+    padding: 60px 20px 50px 20px;
+    /* margin: 10px; */
+    color: gray;
+    border-radius: 10px;
+ }
+ .plan-card-1 h3{
+    color: black;
+ }
+/* end our donate planing  */
+
+/* start our donation blog -1 */
+.donation-blog{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 60px;
+  align-items: center;
+}
+.blog-half-width{
+    width: 40%;
+    padding: 30px;
+}
+.blog-half-width h1{
+    text-align: left;
+}
+.blog-half-width p{
+    text-align: left;
+    color: gray;
+}
+.contribuite-btn{
+    text-align: left;
+    margin-top: 30px;
+}
+/* end our donation blog -1 */
+
+/* start get update section */
+.pink-bg{
+    width: 70%;
+    height: 35vh;
+    background-color: #FFF4D6;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
+.gray-input-filed{
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+}
+.input-fild input{
+    padding: 16px;
+    width: 100%;
+    border: none;
+    background-color: #D9D9D9;
+    outline: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.input-fild input::placeholder{
+    color: rgba(128, 128, 128, 0.813);
+
+}
+.subs button{
+   padding: 16px; 
+   width: 100%;   
+   border: none;
+   background-color: #FF5959; 
+   color: white;
+   border-top-right-radius: 5px;
+   border-bottom-right-radius: 5px;
+   font-size: 15px;
+   font-weight: bold;
+}
+/* end get update section */
+
+/* start last part of this project */
+
+.footer{
+    background-color: #0B0D17;
+}
+.footer-adjusing{
+    text-align: center;
+    padding: 50px;
+}
+.footer-adjusing h1{
+    color: #FF5959;
+    font-family: 'Lobster', cursive;
+    font-size:40px ;
+}
+.footer-adjusing p{
+    color: white;
+}
+/* end last part of this project */
+
+i{
+    margin: 10px;
+    font-size: 30px;
+}
